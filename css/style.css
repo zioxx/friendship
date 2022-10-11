@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    animation: transitionIn 2s;
+    /* background-image: url('https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/6/2022/01/Biography_Sir_Isaac_Newton_The_Gravity_of_Genius_3840x2160_art_only-scaled.jpg?w=720');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    /* color: aqua; */
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
